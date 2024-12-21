@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "page.j5155.roadrunner.expressway",
+    "module": "ftc",
+    "version": "1.0.0-SNAPSHOT-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-1.0.0-SNAPSHOT-1.aar",
+          "url": "ftc-1.0.0-SNAPSHOT-1.aar",
+          "size": 23163,
+          "sha512": "483ecbf786f1b20f3aae3dd25f154ecbec096ab56d49523f88c50f495e94c92428dc8b724b0ad9886ed0c8cd67559eb92ebeaa05cb61c673d303af66001e75ce",
+          "sha256": "cf33df78b2f46acd88fc02743b3c9091aeb0499df8d0c8d5395b7e2089a83c07",
+          "sha1": "b2470966aa175ac84818acf378d4ef539c133ebf",
+          "md5": "e2e7f661f29f29d51b036738425da88a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.16"
+          },
+          "excludes": [
+            {
+              "group": "org.firstinspires.ftc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "actions",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-1.0.0-SNAPSHOT-1.aar",
+          "url": "ftc-1.0.0-SNAPSHOT-1.aar",
+          "size": 23163,
+          "sha512": "483ecbf786f1b20f3aae3dd25f154ecbec096ab56d49523f88c50f495e94c92428dc8b724b0ad9886ed0c8cd67559eb92ebeaa05cb61c673d303af66001e75ce",
+          "sha256": "cf33df78b2f46acd88fc02743b3c9091aeb0499df8d0c8d5395b7e2089a83c07",
+          "sha1": "b2470966aa175ac84818acf378d4ef539c133ebf",
+          "md5": "e2e7f661f29f29d51b036738425da88a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ftc-1.0.0-SNAPSHOT-1-sources.jar",
+          "url": "ftc-1.0.0-SNAPSHOT-1-sources.jar",
+          "size": 23275,
+          "sha512": "87ee20c0a63c68edc2982703d539583a75e2005d8cc90ed67593968918a89466e8449bc1868525ae1929f9eee3fdf078d4d3d77a9e925e2c50e1bbc2afc2a75f",
+          "sha256": "0fee7f2df3138f43abc9b76daeddbfad782729bcc55b3e45c371a772e4c980f8",
+          "sha1": "06bbe80a5c6716e039394abdc949cbc24cbd16ae",
+          "md5": "d54b5e4a7902852c88795f9e5315f86a"
+        }
+      ]
+    }
+  ]
+}

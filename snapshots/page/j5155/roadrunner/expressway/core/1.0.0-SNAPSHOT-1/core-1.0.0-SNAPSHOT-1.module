@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "page.j5155.roadrunner.expressway",
+    "module": "core",
+    "version": "1.0.0-SNAPSHOT-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0-SNAPSHOT-1.jar",
+          "url": "core-1.0.0-SNAPSHOT-1.jar",
+          "size": 15540,
+          "sha512": "35551db8c65b75efaab01927a6fa4ea28c98c4dd152176e3ee20e1841eb96d7f368a8c4e0a46dd3d0ea4d4155bc637996486a5c4820d0648edcc1753eda3632a",
+          "sha256": "f1d3962baf7f726fb0436bfa7a0f24b5ab158f8396d1b1c2244ce8cf9fed338e",
+          "sha1": "ea25e6a452b0a5a9a65d03a84f448d62992402d4",
+          "md5": "d11659ddedf2b0081f33c499f2d75307"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "actions",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.16"
+          },
+          "excludes": [
+            {
+              "group": "org.firstinspires.ftc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-1.0.0-SNAPSHOT-1.jar",
+          "url": "core-1.0.0-SNAPSHOT-1.jar",
+          "size": 15540,
+          "sha512": "35551db8c65b75efaab01927a6fa4ea28c98c4dd152176e3ee20e1841eb96d7f368a8c4e0a46dd3d0ea4d4155bc637996486a5c4820d0648edcc1753eda3632a",
+          "sha256": "f1d3962baf7f726fb0436bfa7a0f24b5ab158f8396d1b1c2244ce8cf9fed338e",
+          "sha1": "ea25e6a452b0a5a9a65d03a84f448d62992402d4",
+          "md5": "d11659ddedf2b0081f33c499f2d75307"
+        }
+      ]
+    }
+  ]
+}
