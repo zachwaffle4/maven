@@ -3,11 +3,12 @@
   <groupId>com.acmerobotics.roadrunner</groupId>
   <artifactId>ftc</artifactId>
   <versioning>
-    <latest>0.1.21-RC-1</latest>
-    <release>0.1.21-RC-1</release>
+    <latest>0.1.21-RC-2</latest>
+    <release>0.1.21-RC-2</release>
     <versions>
       <version>0.1.21-RC-1</version>
+      <version>0.1.21-RC-2</version>
     </versions>
-    <lastUpdated>20250221024554</lastUpdated>
+    <lastUpdated>20250221025306</lastUpdated>
   </versioning>
 </metadata>
