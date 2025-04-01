@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acmerobotics.roadrunner",
+    "module": "core_unofficial",
+    "version": "1.5.0-RC-1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_unofficial-1.5.0-RC-1.jar",
+          "url": "core_unofficial-1.5.0-RC-1.jar",
+          "size": 237655,
+          "sha512": "fc4bff94bfb35ca1e7007977e6db7580b6799681804d3190d35e6e3fa38e247d97b4c185629d05232acd9f615623bc72bb8ee0307e2d988d03008c1623621ca4",
+          "sha256": "4f7fcb599c44d97c6fd26ad29721b868165da2b86ab0bab8982d66c25b44e51c",
+          "sha1": "ddd2226e3f9424c3ae68b777ae1b46dacda85ca9",
+          "md5": "d38c95f33182a0ef32db3afc982a2399"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_unofficial-1.5.0-RC-1.jar",
+          "url": "core_unofficial-1.5.0-RC-1.jar",
+          "size": 237655,
+          "sha512": "fc4bff94bfb35ca1e7007977e6db7580b6799681804d3190d35e6e3fa38e247d97b4c185629d05232acd9f615623bc72bb8ee0307e2d988d03008c1623621ca4",
+          "sha256": "4f7fcb599c44d97c6fd26ad29721b868165da2b86ab0bab8982d66c25b44e51c",
+          "sha1": "ddd2226e3f9424c3ae68b777ae1b46dacda85ca9",
+          "md5": "d38c95f33182a0ef32db3afc982a2399"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core_unofficial",
+          "version": {
+            "requires": "1.5.0-RC-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_unofficial-1.5.0-RC-1-test-fixtures.jar",
+          "url": "core_unofficial-1.5.0-RC-1-test-fixtures.jar",
+          "size": 1695,
+          "sha512": "1e4ae4e64a9d3667ddf922a5eb08637c23311860fd296b5b0867d35278715736828d93cca10fdf3d5ff159bf37874b26aded36ed675a4c09bf3cabeb52beee3b",
+          "sha256": "b614a0b6f625c8ba5dc7bc160fdca34ce72bec9ab9f78a544451fbd8bf30cac2",
+          "sha1": "fd7f3fec59fc63f01f169115fb3b769da8affb96",
+          "md5": "5e5f45e3ad307809cdf0fab49f762ff6"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acmerobotics.roadrunner",
+          "module": "core_unofficial",
+          "version": {
+            "requires": "1.5.0-RC-1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core_unofficial-1.5.0-RC-1-test-fixtures.jar",
+          "url": "core_unofficial-1.5.0-RC-1-test-fixtures.jar",
+          "size": 1695,
+          "sha512": "1e4ae4e64a9d3667ddf922a5eb08637c23311860fd296b5b0867d35278715736828d93cca10fdf3d5ff159bf37874b26aded36ed675a4c09bf3cabeb52beee3b",
+          "sha256": "b614a0b6f625c8ba5dc7bc160fdca34ce72bec9ab9f78a544451fbd8bf30cac2",
+          "sha1": "fd7f3fec59fc63f01f169115fb3b769da8affb96",
+          "md5": "5e5f45e3ad307809cdf0fab49f762ff6"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core_unofficial-1.5.0-RC-1-sources.jar",
+          "url": "core_unofficial-1.5.0-RC-1-sources.jar",
+          "size": 26813,
+          "sha512": "4428c28f429034508d2300cf3b9d32f961ff421b222619a15c0518adf522cd3a5600b61940de5d77cb86f8102bdb519f21442d2aed699af99ed4f67807fe8cba",
+          "sha256": "7a81eabae122b5b26114fe5d7dcd841be8afce964fd7c730a89c36e64784f0a3",
+          "sha1": "0ebc631de4689093af3cfcb2f006787a68af9f3f",
+          "md5": "5e29d09d30f2fbbba24ef6e52fdd562c"
+        }
+      ]
+    }
+  ]
+}
