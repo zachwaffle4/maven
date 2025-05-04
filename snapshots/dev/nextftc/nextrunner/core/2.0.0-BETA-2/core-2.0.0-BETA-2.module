@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "core",
+    "version": "2.0.0-BETA-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.0.0-BETA-2.jar",
+          "url": "core-2.0.0-BETA-2.jar",
+          "size": 249576,
+          "sha512": "8692a2731a96ec6ea10407c259d042f192e7d0bf1bfd902539632767473b7484ed13f9897879144859a564667d6da0d22fec4575bd31fce420d703e21dadbc64",
+          "sha256": "47675c9d4e87a64d04d0dd84fbf8231e85e093fc1f29dac247584fbbbcb01124",
+          "sha1": "a4e55a95fbd925f02494a1fa797a5180efc17ff7",
+          "md5": "7ec01e060c5f48aed6d685ab56010c98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.0.0-BETA-2.jar",
+          "url": "core-2.0.0-BETA-2.jar",
+          "size": 249576,
+          "sha512": "8692a2731a96ec6ea10407c259d042f192e7d0bf1bfd902539632767473b7484ed13f9897879144859a564667d6da0d22fec4575bd31fce420d703e21dadbc64",
+          "sha256": "47675c9d4e87a64d04d0dd84fbf8231e85e093fc1f29dac247584fbbbcb01124",
+          "sha1": "a4e55a95fbd925f02494a1fa797a5180efc17ff7",
+          "md5": "7ec01e060c5f48aed6d685ab56010c98"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.0.0-BETA-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.0.0-BETA-2-test-fixtures.jar",
+          "url": "core-2.0.0-BETA-2-test-fixtures.jar",
+          "size": 2836,
+          "sha512": "3a9999e290386852c408bb4bb2266944dd220714f142ba64cdab70df1f7b8da8ab29145c81f62d208fee22435dfdee995e25c70c3de8f105edb1f2e624812dfe",
+          "sha256": "3550cd25ce21f13e6935bcc0d02d2d02b561b2ef2439e64d3a5309c350486787",
+          "sha1": "dc0530c2d5f7aae2761162b4a3ef09de8e8915ab",
+          "md5": "9951bee7ceac6e03b9e48206930e564c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.0.0-BETA-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.0.0-BETA-2-test-fixtures.jar",
+          "url": "core-2.0.0-BETA-2-test-fixtures.jar",
+          "size": 2836,
+          "sha512": "3a9999e290386852c408bb4bb2266944dd220714f142ba64cdab70df1f7b8da8ab29145c81f62d208fee22435dfdee995e25c70c3de8f105edb1f2e624812dfe",
+          "sha256": "3550cd25ce21f13e6935bcc0d02d2d02b561b2ef2439e64d3a5309c350486787",
+          "sha1": "dc0530c2d5f7aae2761162b4a3ef09de8e8915ab",
+          "md5": "9951bee7ceac6e03b9e48206930e564c"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-2.0.0-BETA-2-sources.jar",
+          "url": "core-2.0.0-BETA-2-sources.jar",
+          "size": 34114,
+          "sha512": "f1e832065ea52d61978ebbe667472b0830219ed2fcd937a7c800997038fcd69044b40bd479251a0ec21d8b4fbf2071d697dbc1ceaca92ec19b730446ed354eb5",
+          "sha256": "8d515ed008bd2d24e5c66e213f97e6760e4547f6cdeec850be503ea9063c6526",
+          "sha1": "272be3e30fb5cea298a95a50398959ca01441d94",
+          "md5": "1fe11d37e9731da074842d3491fa7556"
+        }
+      ]
+    }
+  ]
+}
