@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "actions",
+    "version": "2.0.0-BETA-2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.0.0-BETA-2"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.0.0-BETA-2.jar",
+          "url": "actions-2.0.0-BETA-2.jar",
+          "size": 36160,
+          "sha512": "37bbe63f64814ff337a73d9208db9e2094c972cc0d121967f0a9f0c184dc7af8d84d8a197d71a568c03bb608a6eff824df4b010ba332299ac8427a959cabaec5",
+          "sha256": "a4d58e74e6046c97ab3246e947d4a8b5f6464bbb69a44de822d88c2986190726",
+          "sha1": "cb092660820539f9e1718546391115d0f306242b",
+          "md5": "bf6e63cab40a19a45f897ddd5a45cb43"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.0.0-BETA-2"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.0.0-BETA-2.jar",
+          "url": "actions-2.0.0-BETA-2.jar",
+          "size": 36160,
+          "sha512": "37bbe63f64814ff337a73d9208db9e2094c972cc0d121967f0a9f0c184dc7af8d84d8a197d71a568c03bb608a6eff824df4b010ba332299ac8427a959cabaec5",
+          "sha256": "a4d58e74e6046c97ab3246e947d4a8b5f6464bbb69a44de822d88c2986190726",
+          "sha1": "cb092660820539f9e1718546391115d0f306242b",
+          "md5": "bf6e63cab40a19a45f897ddd5a45cb43"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actions-2.0.0-BETA-2-sources.jar",
+          "url": "actions-2.0.0-BETA-2-sources.jar",
+          "size": 5896,
+          "sha512": "d7968bf3294e9cda02e771188f370a488b9888923dd14ab71fd3c02227de6643ca936e4e10819628f3e4a228d3d18931efed02d87baab57218efd21d3f0ee90c",
+          "sha256": "3597513a9cf4fdc314316854b82018a93e2767ff403b5e3ff7023932b68dd74a",
+          "sha1": "bb61852218b2ae375590e06edea3e4acacdad2b7",
+          "md5": "11b4fc3dd3ac92774b5554734bc9ad94"
+        }
+      ]
+    }
+  ]
+}
