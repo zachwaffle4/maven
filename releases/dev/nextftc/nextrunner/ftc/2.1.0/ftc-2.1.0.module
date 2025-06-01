@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "ftc",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "actions",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-2.1.0.aar",
+          "url": "ftc-2.1.0.aar",
+          "size": 1284980,
+          "sha512": "b6d428e12fd96ef22a66bfc51f2115d1a2cbd12802c3bc9be48eee8ee75b5518a832f9415aa6d9d11f1742a2a4a6f1f446d59463206a210e8f94d306b77d07c2",
+          "sha256": "08b04a9eb41b6700ae2336a55c0b1c32e950775e303116b036a23d26e6b6a55b",
+          "sha1": "30002ec3a145cee12a07b0972cf2ed9fc80f1c4b",
+          "md5": "ccbeb7b3f619f0642786648f4a7f5c5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "FtcCommon",
+          "version": {
+            "requires": "10.0.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "RobotCore",
+          "version": {
+            "requires": "10.0.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Hardware",
+          "version": {
+            "requires": "10.0.0"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "actions",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ftc-2.1.0.aar",
+          "url": "ftc-2.1.0.aar",
+          "size": 1284980,
+          "sha512": "b6d428e12fd96ef22a66bfc51f2115d1a2cbd12802c3bc9be48eee8ee75b5518a832f9415aa6d9d11f1742a2a4a6f1f446d59463206a210e8f94d306b77d07c2",
+          "sha256": "08b04a9eb41b6700ae2336a55c0b1c32e950775e303116b036a23d26e6b6a55b",
+          "sha1": "30002ec3a145cee12a07b0972cf2ed9fc80f1c4b",
+          "md5": "ccbeb7b3f619f0642786648f4a7f5c5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "ftc-2.1.0-sources.jar",
+          "url": "ftc-2.1.0-sources.jar",
+          "size": 43573,
+          "sha512": "ccf82670b27cbc83cead2ccd9905bed0f891c13531659b2c21612fc2a8f73d7771ff8a9d1908aba2c65e715c594e36c3053646e8957f8df096dc1ce132578c72",
+          "sha256": "585a91fbf60c9c221731bc3d1330dfb6f7d6e2e068a106b9d4c4b273892fa957",
+          "sha1": "605043c1a9e4ff266002b482d535ae656b2c47f8",
+          "md5": "90945fbfc0dba4ea6859781f4b250ee3"
+        }
+      ]
+    }
+  ]
+}

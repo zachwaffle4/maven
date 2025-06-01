@@ -1,0 +1,218 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "core",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.1.0.jar",
+          "url": "core-2.1.0.jar",
+          "size": 248770,
+          "sha512": "68999bd354ddef58369f4e9c28b1450f5c2c48250e822899a108f7985efb7f1701035d19bbd54b2c7c3822267fbfc2ab63b133f9b41b728b3e49cc6a94b56d99",
+          "sha256": "aab2c87a94f6e8015515f573728c50bbab91d1ecccbccee8c8ee67006d41457d",
+          "sha1": "b873cd2da4cba6da394d5b6f6fd1deabd65af8c0",
+          "md5": "15d8f838241dc257c1ecb961726c4c3f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.1.0.jar",
+          "url": "core-2.1.0.jar",
+          "size": 248770,
+          "sha512": "68999bd354ddef58369f4e9c28b1450f5c2c48250e822899a108f7985efb7f1701035d19bbd54b2c7c3822267fbfc2ab63b133f9b41b728b3e49cc6a94b56d99",
+          "sha256": "aab2c87a94f6e8015515f573728c50bbab91d1ecccbccee8c8ee67006d41457d",
+          "sha1": "b873cd2da4cba6da394d5b6f6fd1deabd65af8c0",
+          "md5": "15d8f838241dc257c1ecb961726c4c3f"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-core",
+          "version": {
+            "requires": "5.9.1"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-property",
+          "version": {
+            "requires": "5.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.1.0-test-fixtures.jar",
+          "url": "core-2.1.0-test-fixtures.jar",
+          "size": 41850,
+          "sha512": "1b921784ad11cc33aa47b7614300d9ffad5a97b30b5076fd7fa98c1671d0d703ceb1951404f04819dc9e8bc0cb7abae59ad54a3eab2c46470b5efcccdb1cde45",
+          "sha256": "5881c3ab0790ab98d57dc83c5a055d4ab86e4ae1e60db09fb916f5cb85717f59",
+          "sha1": "f575b9790ed86010c109623483af0e53c1ae14ec",
+          "md5": "abac241650c9e435b4efa78ca0eca986"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-assertions-core",
+          "version": {
+            "requires": "5.9.1"
+          }
+        },
+        {
+          "group": "io.kotest",
+          "module": "kotest-property",
+          "version": {
+            "requires": "5.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-2.1.0-test-fixtures.jar",
+          "url": "core-2.1.0-test-fixtures.jar",
+          "size": 41850,
+          "sha512": "1b921784ad11cc33aa47b7614300d9ffad5a97b30b5076fd7fa98c1671d0d703ceb1951404f04819dc9e8bc0cb7abae59ad54a3eab2c46470b5efcccdb1cde45",
+          "sha256": "5881c3ab0790ab98d57dc83c5a055d4ab86e4ae1e60db09fb916f5cb85717f59",
+          "sha1": "f575b9790ed86010c109623483af0e53c1ae14ec",
+          "md5": "abac241650c9e435b4efa78ca0eca986"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "core-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-2.1.0-sources.jar",
+          "url": "core-2.1.0-sources.jar",
+          "size": 33682,
+          "sha512": "89a61efc05a3413c517c5f10c18e380240b83ef3215cefc351a06b2651d4ab72408070bfbdd205a80bd682e67871bd18d1006f4eeeef765a303e0748155c2026",
+          "sha256": "b21c667fe842a06ca91f6c6f074b090ff9216fdce1489a76f6408558f9a2432e",
+          "sha1": "f1a67b01f9967b2eaaa3837c198453f1ba1720dd",
+          "md5": "c0df0ffe719c4758a2a87f976458f810"
+        }
+      ]
+    }
+  ]
+}
