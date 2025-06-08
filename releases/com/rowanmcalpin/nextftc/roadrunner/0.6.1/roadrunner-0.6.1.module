@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rowanmcalpin.nextftc",
+    "module": "roadrunner",
+    "version": "0.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "roadrunner-0.6.1.aar",
+          "url": "roadrunner-0.6.1.aar",
+          "size": 21658,
+          "sha512": "3305a4793699cfa170f0b4245c712de4e9e4841d657bb3b2507a11b1adba2a4bf3d8b443b5d7184259b08d28f7b89656c43b65991e83f9596761370db07a58a7",
+          "sha256": "becf1e9145f7dbe9276e6db764cc5c513be7c6b60389f79c9241388b69117e63",
+          "sha1": "6de68d1ee1a87b604a5c89e4baa8aaab4e88f907",
+          "md5": "4bd8a2f19c3847e40e78788e34a7a8fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "Hardware",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "org.firstinspires.ftc",
+          "module": "RobotCore",
+          "version": {
+            "requires": "10.2.0"
+          }
+        },
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "core",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "com.rowanmcalpin.nextftc",
+          "module": "ftc",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "actions",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "ftc",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "dashboard",
+          "version": {
+            "requires": "0.4.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "roadrunner-0.6.1.aar",
+          "url": "roadrunner-0.6.1.aar",
+          "size": 21658,
+          "sha512": "3305a4793699cfa170f0b4245c712de4e9e4841d657bb3b2507a11b1adba2a4bf3d8b443b5d7184259b08d28f7b89656c43b65991e83f9596761370db07a58a7",
+          "sha256": "becf1e9145f7dbe9276e6db764cc5c513be7c6b60389f79c9241388b69117e63",
+          "sha1": "6de68d1ee1a87b604a5c89e4baa8aaab4e88f907",
+          "md5": "4bd8a2f19c3847e40e78788e34a7a8fb"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "roadrunner-0.6.1-sources.jar",
+          "url": "roadrunner-0.6.1-sources.jar",
+          "size": 9599,
+          "sha512": "385096d5daa8aa0e9c7fa98f6010f4e4f8bdfe24430d8b7c39fc6bd5a575cb567f69f08da8609484a300f1e625b9670e86a1c26406fafaf9b3c9b47c5f75276f",
+          "sha256": "b99cf25a71c15422a5966aa50d606088892f3031c1f2831a84cdef9736d04489",
+          "sha1": "dbb6bcfeb5125326491ef159ce5b63fd7e6bc074",
+          "md5": "519f20db93fd3c93b0a2d0c7ee0c99a1"
+        }
+      ]
+    }
+  ]
+}
