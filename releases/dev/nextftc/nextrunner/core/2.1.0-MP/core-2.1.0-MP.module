@@ -1,0 +1,169 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "core",
+    "version": "2.1.0-MP",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-metadata.jar",
+          "url": "core-2.1.0-MP.jar",
+          "size": 23640,
+          "sha512": "21c04bd976e07e8aa9a2d7fdbf4145d3cb5bef184b380f7525027e616d5ce6de078845d0e9813db9325b0dbd7563bbc2adc6e6f0c3aef25eb2ddf77c39732e7d",
+          "sha256": "612488525127a6b56853a680d26d78941147fa985b3fafcc27377f4507caa270",
+          "sha1": "184695e641a9d75481f6ba39f11f23370b762a09",
+          "md5": "e3788198d8b1f830b125338df6001064"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "core-kotlin-sources.jar",
+          "url": "core-2.1.0-MP-sources.jar",
+          "size": 33975,
+          "sha512": "aa4f5a58e334e867f551d23777dca4255de09d4a84f09f41fecb177dd2d08539c7c0d2a7e4e90ed6fc4e8c90f845f9f4db951cae26a33fcb4a5e18dedb2b35d4",
+          "sha256": "98bb4abe4bd20085c6c7e7271010a172f18fcfe71d24047b4f11b4bb6304b8d3",
+          "sha1": "9f8a2a847265f1bffae84124578b9710edc3e195",
+          "md5": "f618b79b0e52c431ca87bcd2098fcabf"
+        }
+      ]
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/2.1.0-MP/core-jvm-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-jvm",
+        "version": "2.1.0-MP"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/2.1.0-MP/core-jvm-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-jvm",
+        "version": "2.1.0-MP"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../core-jvm/2.1.0-MP/core-jvm-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-jvm",
+        "version": "2.1.0-MP"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/2.1.0-MP/core-wasm-js-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-wasm-js",
+        "version": "2.1.0-MP"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/2.1.0-MP/core-wasm-js-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-wasm-js",
+        "version": "2.1.0-MP"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../core-wasm-js/2.1.0-MP/core-wasm-js-2.1.0-MP.module",
+        "group": "dev.nextftc.nextrunner",
+        "module": "core-wasm-js",
+        "version": "2.1.0-MP"
+      }
+    }
+  ]
+}
