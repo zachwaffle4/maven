@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "actions",
+    "version": "2.2.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.2.1.jar",
+          "url": "actions-2.2.1.jar",
+          "size": 37379,
+          "sha512": "78d2c0f47a5a24364da2ec7722ba1707aa17dc6fe7598aa74033fc0c550486eb08a5ee596f3f15355eeecbf4aab47907e4fb9a98188d5fe1723abb2caadc3814",
+          "sha256": "21785970984cc4c093fceb53fb1a726fc7dbf8f2ea8372c8d5e0ab8a45afdb52",
+          "sha1": "d296c2265cca6970eaf45d6c32faa40f8d8b9fa2",
+          "md5": "ef38d5656d18535405d0051cec33e4ad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.2.1.jar",
+          "url": "actions-2.2.1.jar",
+          "size": 37379,
+          "sha512": "78d2c0f47a5a24364da2ec7722ba1707aa17dc6fe7598aa74033fc0c550486eb08a5ee596f3f15355eeecbf4aab47907e4fb9a98188d5fe1723abb2caadc3814",
+          "sha256": "21785970984cc4c093fceb53fb1a726fc7dbf8f2ea8372c8d5e0ab8a45afdb52",
+          "sha1": "d296c2265cca6970eaf45d6c32faa40f8d8b9fa2",
+          "md5": "ef38d5656d18535405d0051cec33e4ad"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actions-2.2.1-sources.jar",
+          "url": "actions-2.2.1-sources.jar",
+          "size": 5823,
+          "sha512": "6d0202181132ef07dde1875c56749d307dc48e1e03f29c7eef11dcbda049164c8ee7da20e4a804455ff1373f1ba5e92ada7260deb5fb2273da5fd455638b91ee",
+          "sha256": "3d3fd8bf64a7e05b75a5395327ab2db30f561a326b4195558d184e1fb5ca5a16",
+          "sha1": "dcf6c84d1abbaaa4ddfd3b76080a7495177472a0",
+          "md5": "6613fd7f974c24f3d407cabe93bc6cc7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actions-2.2.1-javadoc.jar",
+          "url": "actions-2.2.1-javadoc.jar",
+          "size": 261,
+          "sha512": "ced139496239a087ada0da22b1a0950e2c5837e211c49d7c56a4582eaf55455cc52c266a510e60a8bca232c7d46aebef5a2faf0cb1035afed39bb41696f77ddd",
+          "sha256": "b6a3c56307c19cfeb52a6c4cd46b245cee01973499450a037d86249aecf40a16",
+          "sha1": "f4b3e2e15d29b3ad48f7f1d0ceb4f6d46e985e6d",
+          "md5": "180d21900afd95cd7d578c9cbf58c7f6"
+        }
+      ]
+    }
+  ]
+}
