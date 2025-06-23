@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.nextftc.nextrunner",
+    "module": "actions",
+    "version": "2.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.3.0.jar",
+          "url": "actions-2.3.0.jar",
+          "size": 41745,
+          "sha512": "c36d590e1c5c65d17200c3b0ecded449da49d1f70d3881433d5b75785e21878174d66b2ccc1d1f46bf61c2e9404d08b31ed544f8ffb98e512b14384bf89a6918",
+          "sha256": "89466644582d0ee3f7376565e57ff48bbf979e316e652bf4dcbe134e714e7284",
+          "sha1": "f1adb322bbf8f7b3f2d66894c8478f36686e1ac1",
+          "md5": "e52c23cee6dad3514fbea81ab5e1f070"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "core",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.acmerobotics.dashboard",
+          "module": "core",
+          "version": {
+            "requires": "0.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.3.0.jar",
+          "url": "actions-2.3.0.jar",
+          "size": 41745,
+          "sha512": "c36d590e1c5c65d17200c3b0ecded449da49d1f70d3881433d5b75785e21878174d66b2ccc1d1f46bf61c2e9404d08b31ed544f8ffb98e512b14384bf89a6918",
+          "sha256": "89466644582d0ee3f7376565e57ff48bbf979e316e652bf4dcbe134e714e7284",
+          "sha1": "f1adb322bbf8f7b3f2d66894c8478f36686e1ac1",
+          "md5": "e52c23cee6dad3514fbea81ab5e1f070"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "actions",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.3.0-test-fixtures.jar",
+          "url": "actions-2.3.0-test-fixtures.jar",
+          "size": 60730,
+          "sha512": "9a2aa85b7b88b581145a02e6f8382b0cf39e2d83f4056610e14dbc090a104976801ec5914c05b3b30877631b53922d95dafb07f0f19baf76fd4011276cfb555f",
+          "sha256": "6b9df44204404e257e0e08ff8b7e4791e028277359773f1064b764f339fee7ae",
+          "sha1": "bc10b66d733f3c2da1c222919e7154fc7d790e88",
+          "md5": "10264869671b969163b4bdd4fee96538"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "actions-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "testFixturesRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.nextftc.nextrunner",
+          "module": "actions",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actions-2.3.0-test-fixtures.jar",
+          "url": "actions-2.3.0-test-fixtures.jar",
+          "size": 60730,
+          "sha512": "9a2aa85b7b88b581145a02e6f8382b0cf39e2d83f4056610e14dbc090a104976801ec5914c05b3b30877631b53922d95dafb07f0f19baf76fd4011276cfb555f",
+          "sha256": "6b9df44204404e257e0e08ff8b7e4791e028277359773f1064b764f339fee7ae",
+          "sha1": "bc10b66d733f3c2da1c222919e7154fc7d790e88",
+          "md5": "10264869671b969163b4bdd4fee96538"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "road-runner",
+          "name": "actions-test-fixtures",
+          "version": "unspecified"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actions-2.3.0-sources.jar",
+          "url": "actions-2.3.0-sources.jar",
+          "size": 6779,
+          "sha512": "d7bd2b833d7de1995e8c145ebb78308d57372e68456841ae83c9eaea69c46b86df0ef0ee16a812d792e3cc9c36076534bd3012a6c90df4d780d316472e70f423",
+          "sha256": "dc4a54a8000f621015d030323628cf5522212e118aa43d6dee0350a0d3b2feb7",
+          "sha1": "9a4ac9a71f052f8bde604508279f83f142ad8603",
+          "md5": "47a4e3fd0ef4bcefb72a13d6241092a1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actions-2.3.0-javadoc.jar",
+          "url": "actions-2.3.0-javadoc.jar",
+          "size": 261,
+          "sha512": "db5dd139f5e34734e1cb8186e3e2bcfdf724100d2a37992ec088ae21e81f87761f782af7f6382afdf69134147d64d8da936591624f9dfce5abfcb36b1e2a4b82",
+          "sha256": "034de067dfd6bdd2cdbaa4f7a3f40b4e288df972c4cc75979a028ca921af5a48",
+          "sha1": "2e0dff9f3ca4a7024433bb705d1727e765233fed",
+          "md5": "1d4c7a62d367354f7771a9145d8bd9fd"
+        }
+      ]
+    }
+  ]
+}
